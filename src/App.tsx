@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionHeader,
@@ -8,7 +8,6 @@ import {
   Typography,
   CardFooter,
   Button,
-  IconButton,
 } from "@material-tailwind/react";
 import FETCH_HEADERS from "./constant";
 import { filesize } from "filesize";
