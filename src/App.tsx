@@ -46,13 +46,18 @@ function App() {
   }, [open]);
 
   return (
-    <main className="w-full min-h-screen font-['MiSans'] py-32 px-24 flex flex-col items-center relative">
-      <Typography variant="h2" color="orange" textGradient>
+    <main className="w-full min-h-screen font-['MiSans'] py-16 sm:py-32 px-12 sm:px-24 flex flex-col items-center relative">
+      <Typography
+        variant="h2"
+        color="orange"
+        textGradient
+        className="text-center"
+      >
         马来西亚华文独中课本电子书库
       </Typography>
       <Typography
         variant="p"
-        className="mt-2 font-normal mb-8 text-blue-gray-400"
+        className="mt-2 font-normal mb-8 text-blue-gray-400 text-center"
       >
         本网站由学生自主开发及维护，旨在为独中生提供免费的电子书资源
       </Typography>
@@ -87,11 +92,14 @@ function App() {
           </AccordionHeader>
           {data.length ? (
             <AccordionBody>
-              <div className="grid grid-cols-4 gap-8">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-8">
                 {data
                   .filter((e: any) => e.name.endsWith(".pdf"))
                   .map((e: any) => (
-                    <Card className="p-3 pb-0 items-center" key={e.sha}>
+                    <Card
+                      className="p-3 pb-0 items-center overflow-visible"
+                      key={e.sha}
+                    >
                       <div>
                         <img
                           src={`https://github.com/melvinchia3636/textbooks/raw/main/images/${

@@ -4,7 +4,7 @@
 
 .accordion-header ~ div {
   height: auto !important;
-  max-height: 240rem !important;
+  max-height: 1000rem !important;
   transition: all 0.5s;
 }
 
@@ -12,4 +12,22 @@
   height: auto !important;
   max-height: 0rem !important;
   transition: all 0.5s;
+}
+
+@media (min-width: 540px) {
+  .accordion-header ~ div {
+    height: auto !important;
+    max-height: 240rem !important;
+    transition: all 0.5s;
+  }
+
+  .accordion-header ~ div[style="height: 0px;"] {
+    height: auto !important;
+    max-height: 0rem !important;
+    transition: all 0.5s;
+  }
+}
+
+div[class^="overflow-hidden"] {
+  overflow: visible !important;
 }
