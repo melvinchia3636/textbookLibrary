@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-header ~ div {
+  height: auto !important;
+  max-height: 240rem !important;
+  transition: all 0.5s;
+}
+
+.accordion-header ~ div[style="height: 0px;"] {
+  height: auto !important;
+  max-height: 0rem !important;
+  transition: all 0.5s;
+}
