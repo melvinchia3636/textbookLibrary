@@ -1,12 +1,20 @@
-const data = require("../src/data/sizes.json");
+const name = require("../src/data/name.json");
+const pages = require("../src/data/pages.json");
+const size = require("../src/data/sizes.json");
 const fs = require("fs");
 
-const newData = Object.entries(data).map(([k, v]) => ({
-  grade: k,
-  items: Object.entries(v).map(([k, v]) => ({
-    id: k,
-    sizes: v,
-  })),
-}));
+let newData = [];
 
-fs.writeFileSync("./v2.sizes.json", JSON.stringify(newData, null, 2));
+for (let item of Object.keys(name)) {
+  newData.push({
+    grade: item,
+    items: Object.entries(name[item]).map(([key, value]) => ({
+      id: key,
+      name: value,
+      page: pages[item][key],
+      size: size[item][key],
+    })),
+  });
+}
+
+fs.writeFileSync("./v2_books.json", JSON.stringify(newData, null, 2));
