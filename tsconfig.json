@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/filesizes.min.js"]
+  "include": ["src", "src/filesizes.min.js", "scripts/cleanup.js"]
 }

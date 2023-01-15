@@ -1,0 +1,424 @@
+[
+  {
+    "grade": "sm1",
+    "items": [
+      {
+        "id": "addmaths2",
+        "sizes": 16323527
+      },
+      {
+        "id": "chinese2",
+        "sizes": 26599142
+      },
+      {
+        "id": "maths2",
+        "sizes": 14256471
+      },
+      {
+        "id": "addmaths1",
+        "sizes": 25268364
+      },
+      {
+        "id": "chinese1",
+        "sizes": 22598881
+      },
+      {
+        "id": "maths1",
+        "sizes": 14871341
+      },
+      {
+        "id": "bm",
+        "sizes": 33850005
+      },
+      {
+        "id": "chemistry",
+        "sizes": 50229280
+      },
+      {
+        "id": "physical_geo",
+        "sizes": 29400023
+      },
+      {
+        "id": "physics",
+        "sizes": 42629128
+      },
+      {
+        "id": "account",
+        "sizes": 23249645
+      },
+      {
+        "id": "S1 his_east asia",
+        "sizes": 50348810
+      },
+      {
+        "id": "economics",
+        "sizes": 30463180
+      },
+      {
+        "id": "IT",
+        "sizes": 33298573
+      },
+      {
+        "id": "artap",
+        "sizes": 51540491
+      },
+      {
+        "id": "business",
+        "sizes": 25584609
+      },
+      {
+        "id": "physics companion",
+        "sizes": 21040205
+      },
+      {
+        "id": "English",
+        "sizes": 19081878
+      },
+      {
+        "id": "biology",
+        "sizes": 43717986
+      }
+    ]
+  },
+  {
+    "grade": "images",
+    "items": []
+  },
+  {
+    "grade": "jm3",
+    "items": [
+      {
+        "id": "maths2",
+        "sizes": 15018000
+      },
+      {
+        "id": "maths1",
+        "sizes": 22034027
+      },
+      {
+        "id": "chinese1B",
+        "sizes": 25069826
+      },
+      {
+        "id": "music",
+        "sizes": 21809910
+      },
+      {
+        "id": "chinese1A",
+        "sizes": 28106325
+      },
+      {
+        "id": "art NEW",
+        "sizes": 17371501
+      },
+      {
+        "id": "IT2",
+        "sizes": 44121237
+      },
+      {
+        "id": "history",
+        "sizes": 60385120
+      },
+      {
+        "id": "geography",
+        "sizes": 25131557
+      },
+      {
+        "id": "english",
+        "sizes": 40718412
+      },
+      {
+        "id": "bm2",
+        "sizes": 22880581
+      },
+      {
+        "id": "science1",
+        "sizes": 50283685
+      },
+      {
+        "id": "bm1",
+        "sizes": 22384039
+      },
+      {
+        "id": "science2",
+        "sizes": 57322638
+      }
+    ]
+  },
+  {
+    "grade": "jm2",
+    "items": [
+      {
+        "id": "chinese2",
+        "sizes": 27929311
+      },
+      {
+        "id": "maths2",
+        "sizes": 16639251
+      },
+      {
+        "id": "chinese1",
+        "sizes": 24862148
+      },
+      {
+        "id": "maths1",
+        "sizes": 18794162
+      },
+      {
+        "id": "music",
+        "sizes": 9228150
+      },
+      {
+        "id": "history",
+        "sizes": 28094183
+      },
+      {
+        "id": "geography",
+        "sizes": 18826193
+      },
+      {
+        "id": "art",
+        "sizes": 15981359
+      },
+      {
+        "id": "english",
+        "sizes": 20825043
+      },
+      {
+        "id": "bm2",
+        "sizes": 26835458
+      },
+      {
+        "id": "science1",
+        "sizes": 29910363
+      },
+      {
+        "id": "bm1",
+        "sizes": 29426910
+      },
+      {
+        "id": "science2",
+        "sizes": 30857789
+      }
+    ]
+  },
+  {
+    "grade": "sm3",
+    "items": [
+      {
+        "id": "addmaths2",
+        "sizes": 11798608
+      },
+      {
+        "id": "chinese2",
+        "sizes": 37162393
+      },
+      {
+        "id": "maths2",
+        "sizes": 13654685
+      },
+      {
+        "id": "addmaths1",
+        "sizes": 23286077
+      },
+      {
+        "id": "chinese1",
+        "sizes": 44744829
+      },
+      {
+        "id": "maths1",
+        "sizes": 24561077
+      },
+      {
+        "id": "geo_world",
+        "sizes": 47367613
+      },
+      {
+        "id": "bm",
+        "sizes": 57271665
+      },
+      {
+        "id": "chemistry",
+        "sizes": 56491314
+      },
+      {
+        "id": "geo_du tu jie tu",
+        "sizes": 12076741
+      },
+      {
+        "id": "physics",
+        "sizes": 75502028
+      },
+      {
+        "id": "IT2",
+        "sizes": 32641903
+      },
+      {
+        "id": "account",
+        "sizes": 37517268
+      },
+      {
+        "id": "accounting ref",
+        "sizes": 37286953
+      },
+      {
+        "id": "business",
+        "sizes": 24184124
+      },
+      {
+        "id": "art",
+        "sizes": 82200149
+      },
+      {
+        "id": "english",
+        "sizes": 40044216
+      },
+      {
+        "id": "his_asean_2",
+        "sizes": 56460854
+      },
+      {
+        "id": "economy",
+        "sizes": 51838027
+      },
+      {
+        "id": "his_asean_1",
+        "sizes": 54046446
+      },
+      {
+        "id": "biology",
+        "sizes": 21404455
+      }
+    ]
+  },
+  {
+    "grade": "sm2",
+    "items": [
+      {
+        "id": "addmaths2",
+        "sizes": 23809573
+      },
+      {
+        "id": "chinese2",
+        "sizes": 35430439
+      },
+      {
+        "id": "maths2",
+        "sizes": 19051905
+      },
+      {
+        "id": "addmaths1",
+        "sizes": 30868983
+      },
+      {
+        "id": "chinese1",
+        "sizes": 42418475
+      },
+      {
+        "id": "maths1",
+        "sizes": 18916207
+      },
+      {
+        "id": "chemistry",
+        "sizes": 38125196
+      },
+      {
+        "id": "physics",
+        "sizes": 63274365
+      },
+      {
+        "id": "account",
+        "sizes": 44781160
+      },
+      {
+        "id": "geo_human",
+        "sizes": 27308715
+      },
+      {
+        "id": "world_his",
+        "sizes": 53076976
+      },
+      {
+        "id": "business",
+        "sizes": 46756915
+      },
+      {
+        "id": "art",
+        "sizes": 55866417
+      },
+      {
+        "id": "english",
+        "sizes": 59945525
+      },
+      {
+        "id": "bm2",
+        "sizes": 48211772
+      },
+      {
+        "id": "biology",
+        "sizes": 28727713
+      }
+    ]
+  },
+  {
+    "grade": "jm1",
+    "items": [
+      {
+        "id": "chinese2",
+        "sizes": 40880375
+      },
+      {
+        "id": "maths2",
+        "sizes": 15852696
+      },
+      {
+        "id": "chinese1",
+        "sizes": 48127730
+      },
+      {
+        "id": "maths1",
+        "sizes": 20019624
+      },
+      {
+        "id": "music",
+        "sizes": 20179026
+      },
+      {
+        "id": "IT1",
+        "sizes": 55842043
+      },
+      {
+        "id": "history",
+        "sizes": 61825567
+      },
+      {
+        "id": "geography",
+        "sizes": 36086413
+      },
+      {
+        "id": "art",
+        "sizes": 26407891
+      },
+      {
+        "id": "english",
+        "sizes": 34690707
+      },
+      {
+        "id": "bm2",
+        "sizes": 41824970
+      },
+      {
+        "id": "science1",
+        "sizes": 55231015
+      },
+      {
+        "id": "bm1",
+        "sizes": 26472776
+      },
+      {
+        "id": "science2",
+        "sizes": 52893882
+      }
+    ]
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "grade": "jm1",
+    "items": [
+      {
+        "id": "chinese1",
+        "name": "《华文》初一上册"
+      },
+      {
+        "id": "chinese2",
+        "name": "《华文》初一下册"
+      },
+      {
+        "id": "bm1",
+        "name": "Bahasa Malaysia Junior 1 Jilid Pertama"
+      },
+      {
+        "id": "bm2",
+        "name": "Bahasa Malaysia Junior 1 Jilid Kedua"
+      },
+      {
+        "id": "english",
+        "name": "English Junior Middle 1"
+      },
+      {
+        "id": "history",
+        "name": "初中《历史》第一册"
+      },
+      {
+        "id": "geography",
+        "name": "初中《地理》第一册"
+      },
+      {
+        "id": "maths1",
+        "name": "《数学》初一上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《数学》初一下册"
+      },
+      {
+        "id": "science1",
+        "name": "《科学》初一上册"
+      },
+      {
+        "id": "science2",
+        "name": "《科学》初一下册"
+      },
+      {
+        "id": "art",
+        "name": "初中《美术》第一册"
+      },
+      {
+        "id": "IT1",
+        "name": "初中《电脑与资讯工艺》上册"
+      },
+      {
+        "id": "music",
+        "name": "初中《音乐》第一册"
+      }
+    ]
+  },
+  {
+    "grade": "jm2",
+    "items": [
+      {
+        "id": "chinese1",
+        "name": "《华文》初二上册"
+      },
+      {
+        "id": "chinese2",
+        "name": "《华文》初二下册"
+      },
+      {
+        "id": "bm1",
+        "name": "Bahasa Malaysia Junior 2 Jilid Pertama"
+      },
+      {
+        "id": "bm2",
+        "name": "Bahasa Malaysia Junior 2 Jilid Kedua"
+      },
+      {
+        "id": "english",
+        "name": "English Junior Middle 2"
+      },
+      {
+        "id": "history",
+        "name": "初中《历史》第二册"
+      },
+      {
+        "id": "geography",
+        "name": "初中《地理》第二册"
+      },
+      {
+        "id": "maths1",
+        "name": "《数学》初二上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《数学》初二下册"
+      },
+      {
+        "id": "science1",
+        "name": "《科学》初二上册"
+      },
+      {
+        "id": "science2",
+        "name": "《科学》初二下册"
+      },
+      {
+        "id": "art",
+        "name": "初中《美术》第二册"
+      },
+      {
+        "id": "music",
+        "name": "初中《音乐》第二册"
+      }
+    ]
+  },
+  {
+    "grade": "jm3",
+    "items": [
+      {
+        "id": "chinese1A",
+        "name": "《华文》初三上册"
+      },
+      {
+        "id": "chinese1B",
+        "name": "《华文》初三下册"
+      },
+      {
+        "id": "bm1",
+        "name": "Bahasa Malaysia Junior 3 Jilid Pertama"
+      },
+      {
+        "id": "bm2",
+        "name": "Bahasa Malaysia Junior 3 Jilid Kedua"
+      },
+      {
+        "id": "english",
+        "name": "English Junior Middle 3"
+      },
+      {
+        "id": "history",
+        "name": "初中《历史》第三册"
+      },
+      {
+        "id": "geography",
+        "name": "初中《地理》第三册"
+      },
+      {
+        "id": "science1",
+        "name": "《科学》初三上册"
+      },
+      {
+        "id": "science2",
+        "name": "《科学》初三下册"
+      },
+      {
+        "id": "maths1",
+        "name": "《数学》初三上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《数学》初三下册"
+      },
+      {
+        "id": "IT2",
+        "name": "初中《电脑与资讯工艺》下册"
+      },
+      {
+        "id": "art NEW",
+        "name": "初中《美术》第三册"
+      },
+      {
+        "id": "music",
+        "name": "初中《音乐》第三册"
+      }
+    ]
+  },
+  {
+    "grade": "sm1",
+    "items": [
+      {
+        "id": "chinese1",
+        "name": "《华文》高一上册"
+      },
+      {
+        "id": "chinese2",
+        "name": "《华文》高一下册"
+      },
+      {
+        "id": "bm",
+        "name": "Bahasa Malaysia Menengah Tinggi Satu"
+      },
+      {
+        "id": "English",
+        "name": "English  Senior Middle 1"
+      },
+      {
+        "id": "chemistry",
+        "name": "高中《化学》上册"
+      },
+      {
+        "id": "biology",
+        "name": "高中《生物》上册"
+      },
+      {
+        "id": "physics",
+        "name": "高中《物理》上册"
+      },
+      {
+        "id": "maths1",
+        "name": "《高中数学》高一上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《高中数学》高一下册"
+      },
+      {
+        "id": "addmaths1",
+        "name": "《高级数学》高一上册"
+      },
+      {
+        "id": "addmaths2",
+        "name": "《高级数学》高一下册"
+      },
+      {
+        "id": "artap",
+        "name": "高中《美术赏析》第一册"
+      },
+      {
+        "id": "IT",
+        "name": "高中《电脑与资讯工艺》上册"
+      },
+      {
+        "id": "account",
+        "name": "高中《簿记与会计》参考书1"
+      },
+      {
+        "id": "business",
+        "name": "高中《商业学》第一册"
+      },
+      {
+        "id": "economics",
+        "name": "高中《经济学》上册"
+      },
+      {
+        "id": "S1 his_east asia",
+        "name": "高中《世界史1之东亚史》"
+      },
+      {
+        "id": "physical_geo",
+        "name": "高中《自然地理》"
+      },
+      {
+        "id": "physics companion",
+        "name": "高中《物理好帮手》"
+      }
+    ]
+  },
+  {
+    "grade": "sm2",
+    "items": [
+      {
+        "id": "chinese1",
+        "name": "《华文》高二上册"
+      },
+      {
+        "id": "chinese2",
+        "name": "《华文》高二下册"
+      },
+      {
+        "id": "bm2",
+        "name": "Bahasa Malaysia Menengah Tinggi Dua"
+      },
+      {
+        "id": "english",
+        "name": "English Senior Middle 2"
+      },
+      {
+        "id": "chemistry",
+        "name": "高中《化学》中册"
+      },
+      {
+        "id": "biology",
+        "name": "高中《生物》中册"
+      },
+      {
+        "id": "physics",
+        "name": "高中《物理》中册"
+      },
+      {
+        "id": "maths1",
+        "name": "《高中数学》高二上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《高中数学》高二下册"
+      },
+      {
+        "id": "addmaths1",
+        "name": "《高级数学》高二上册"
+      },
+      {
+        "id": "addmaths2",
+        "name": "《高级数学》高二下册"
+      },
+      {
+        "id": "art",
+        "name": "高中《美术赏析》第二册"
+      },
+      {
+        "id": "account",
+        "name": "高中《簿记与会计》参考书2"
+      },
+      {
+        "id": "business",
+        "name": "高中《商业学》第二册"
+      },
+      {
+        "id": "geo_human",
+        "name": "高中《人文地理》"
+      },
+      {
+        "id": "world_his",
+        "name": "高中《世界历史》"
+      }
+    ]
+  },
+  {
+    "grade": "sm3",
+    "items": [
+      {
+        "id": "chinese1",
+        "name": "《华文》高三上册"
+      },
+      {
+        "id": "chinese2",
+        "name": "《华文》高三下册"
+      },
+      {
+        "id": "bm",
+        "name": "Bahasa Malaysia Menengah Tinggi Tiga"
+      },
+      {
+        "id": "english",
+        "name": "English Senior Middle 3"
+      },
+      {
+        "id": "chemistry",
+        "name": "高中《化学》下册"
+      },
+      {
+        "id": "biology",
+        "name": "高中《生物》下册"
+      },
+      {
+        "id": "physics",
+        "name": "高中《物理》下册"
+      },
+      {
+        "id": "maths1",
+        "name": "《高中数学》高三上册"
+      },
+      {
+        "id": "maths2",
+        "name": "《高中数学》高三下册"
+      },
+      {
+        "id": "addmaths1",
+        "name": "《高级数学》高三上册"
+      },
+      {
+        "id": "addmaths2",
+        "name": "《高级数学》高三下册"
+      },
+      {
+        "id": "art",
+        "name": "高中《美术》（全一册）"
+      },
+      {
+        "id": "IT2",
+        "name": "高中《电脑与资讯工艺》下册"
+      },
+      {
+        "id": "account",
+        "name": "高中《簿记与会计》参考书3"
+      },
+      {
+        "id": "business",
+        "name": "高中《商业学》第三册"
+      },
+      {
+        "id": "economy",
+        "name": "高中《经济学》下册"
+      },
+      {
+        "id": "accounting ref",
+        "name": "会计学参考书 Accounting Reference Book"
+      },
+      {
+        "id": "geo_du tu jie tu",
+        "name": "读图解图"
+      },
+      {
+        "id": "geo_world",
+        "name": "高中《世界地理》"
+      },
+      {
+        "id": "his_asean_1",
+        "name": "高中《马来西亚及其东南亚邻国史》第一部分"
+      },
+      {
+        "id": "his_asean_2",
+        "name": "高中《马来西亚及其东南亚邻国史》第二部分"
+      }
+    ]
+  }
+]
