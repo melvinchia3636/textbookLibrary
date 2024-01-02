@@ -54,7 +54,7 @@ function encode(b){
           Cookie:
             "MoodleSession=fl22cv9i65s2bqcasn3dgv2jdp; MOODLEID1_=S%25B5%25CC%25C2%2584%25D5%2583",
           "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         },
       })
       .then((e) => e.data);
@@ -72,7 +72,7 @@ function encode(b){
           Cookie:
             "MoodleSession=fl22cv9i65s2bqcasn3dgv2jdp; MOODLEID1_=S%25B5%25CC%25C2%2584%25D5%2583",
           "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         },
       }).then((e) => e.data);
       const dom2 = new JSDOM(raw2);
@@ -96,12 +96,28 @@ function encode(b){
 
         let page = 1;
         let locked = false
+        let url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/files/mobile/${page}.jpg`;
+        let config_url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/mobile/javascript/config.js`;
+        let singleRealKey;
+        await axios.get(url).then().catch(async() => {
+          locked = true
+          await axios.get(config_url).then(async (config_res) => {
+            const regex = /bookConfig\.singlePasswordKey[^"]*"([^"]*)"/
+            const match = regex.exec(config_res.data);
+            let singlePasswordKey;
+            if (match) {
+                singlePasswordKey = match[1]
+            }
+            singleRealKey = rc4("dze23", parsHexToNormalString(singlePasswordKey))
+          }).catch(err => console.log(err))
+        })
 
         while (true) {
-          let url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/files/mobile/${page}.jpg`;
           let data;
 
           if(!locked) {
+            url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/files/mobile/${page}.jpg`
+
             try {
               const res = await axios(url, {
                 responseType: "stream",
@@ -117,32 +133,17 @@ function encode(b){
                   ).padStart(2, "0")}.jpg`
                 )
               );
+              let page_wip = page
               w.on("finish", () => {
-                console.log(`${chapter}/${page}`);
+                console.log(`${chapter}/${page_wip}`);
               });
               page++;
             } catch (err) {
-              if (page != 1) {
-                page = 1;
-                break;
-              } else {
-                locked = true
-              }
+              page = 1;
+              break;
             }
           } else {
-            config_url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/mobile/javascript/config.js`;
-            let singleRealKey;
-            await axios.get(config_url).then(async (config_res) => {
-              const regex = /bookConfig\.singlePasswordKey[^"]*"([^"]*)"/
-              const match = regex.exec(config_res.data);
-              let singlePasswordKey;
-              if (match) {
-                  singlePasswordKey = match[1]
-              }
-              singleRealKey = rc4(textbook_password, parsHexToNormalString(singlePasswordKey))
-            }).catch(err => console.log(err))
             url = `https://elearning.dongzong.my/dongzong/${category}/${grade}/${subject}/${subsubject}/${chapter}/files/mobile/${page}.js`;
-            let data;
   
             try {
               await axios.get(url).then((res) => {
