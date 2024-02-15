@@ -23,8 +23,14 @@
       {
         "id": "bm2",
         "name": "Bahasa Malaysia Junior 1 Jilid Kedua",
-        "page": 238,
-        "size": 41824970
+        "page": 224,
+        "size": 52893196
+      },
+      {
+        "id": "bm_2023",
+        "name": "Bahasa Melayu Menengah Rendah Satu",
+        "page": 254,
+        "size": 71154440
       },
       {
         "id": "english",
@@ -65,8 +71,8 @@
       {
         "id": "science2",
         "name": "《科学》初一下册",
-        "page": 247,
-        "size": 52893882
+        "page": 240,
+        "size": 88767446
       },
       {
         "id": "art",
@@ -77,8 +83,8 @@
       {
         "id": "IT1",
         "name": "初中《电脑与资讯工艺》上册",
-        "page": 231,
-        "size": 55842043
+        "page": 240,
+        "size": 104404575
       },
       {
         "id": "music",
@@ -106,8 +112,8 @@
       {
         "id": "chinese2",
         "name": "《华文》初二下册",
-        "page": 262,
-        "size": 27929311
+        "page": 225,
+        "size": 58491044
       },
       {
         "id": "bm1",
@@ -142,8 +148,8 @@
       {
         "id": "maths1",
         "name": "《数学》初二上册",
-        "page": 273,
-        "size": 18794162
+        "page": 271,
+        "size": 39557135
       },
       {
         "id": "maths2",
@@ -183,14 +189,14 @@
       {
         "id": "chinese1A",
         "name": "《华文》初三上册",
-        "page": 245,
-        "size": 28106325
+        "page": 231,
+        "size": 32884063
       },
       {
         "id": "chinese1B",
         "name": "《华文》初三下册",
-        "page": 216,
-        "size": 25069826
+        "page": 224,
+        "size": 31640099
       },
       {
         "id": "bm1",
@@ -284,8 +290,8 @@
       {
         "id": "bm",
         "name": "Bahasa Malaysia Menengah Tinggi Satu",
-        "page": 276,
-        "size": 33850005
+        "page": 286,
+        "size": 51551366
       },
       {
         "id": "English",
@@ -302,8 +308,8 @@
       {
         "id": "biology",
         "name": "高中《生物》上册",
-        "page": 440,
-        "size": 43717986
+        "page": 406,
+        "size": 63190146
       },
       {
         "id": "physics",
@@ -326,8 +332,8 @@
       {
         "id": "addmaths1",
         "name": "《高级数学》高一上册",
-        "page": 322,
-        "size": 25268364
+        "page": 360,
+        "size": 53326896
       },
       {
         "id": "addmaths1_2024",
@@ -350,8 +356,8 @@
       {
         "id": "IT",
         "name": "高中《电脑与资讯工艺》上册",
-        "page": 255,
-        "size": 33298573
+        "page": 191,
+        "size": 58314023
       },
       {
         "id": "account",
@@ -415,14 +421,14 @@
       {
         "id": "chinese2",
         "name": "《华文》高二下册",
-        "page": 201,
-        "size": 35430439
+        "page": 191,
+        "size": 39856294
       },
       {
         "id": "bm2",
         "name": "Bahasa Malaysia Menengah Tinggi Dua",
-        "page": 208,
-        "size": 48211772
+        "page": 226,
+        "size": 56091794
       },
       {
         "id": "english",
@@ -431,10 +437,16 @@
         "size": 59945525
       },
       {
+        "id": "english_2022",
+        "name": "English Senior Middle 2 (2022)",
+        "page": 202,
+        "size": 59945525
+      },
+      {
         "id": "chemistry",
         "name": "高中《化学》中册",
-        "page": 348,
-        "size": 38125196
+        "page": 377,
+        "size": 90838878
       },
       {
         "id": "biology",
@@ -475,8 +487,8 @@
       {
         "id": "art",
         "name": "高中《美术赏析》第二册",
-        "page": 451,
-        "size": 55866417
+        "page": 419,
+        "size": 88325816
       },
       {
         "id": "account",
@@ -510,8 +522,8 @@
       {
         "id": "chinese1",
         "name": "《华文》高三上册",
-        "page": 216,
-        "size": 44744829
+        "page": 212,
+        "size": 51045157
       },
       {
         "id": "chinese2",
